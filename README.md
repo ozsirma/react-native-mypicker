@@ -12,7 +12,7 @@ $ npm install react-native-mypicker
 ### Import
 
 ```sh
-$ import MyPicker from 'react-native-mypicker'
+$ Import MyPicker from 'react-native-mypicker'
 ```
 
 ### Usage
