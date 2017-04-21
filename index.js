@@ -1,3 +1,3 @@
-import MyPicker from './Picker';
+import MyPicker from './MyPicker';
 
 module.exports = MyPicker;
