@@ -1,0 +1,27 @@
+{
+  "name": "react-native-mypicker",
+  "version": "0.1.0",
+  "description": "React Native Picker for only iOS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozsirma/react-native-mypicker.git"
+  },
+  "keywords": [
+    "react",
+    "react",
+    "native",
+    "native",
+    "picker",
+    "ios"
+  ],
+  "author": "Alican Özsırma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ozsirma/react-native-mypicker/issues"
+  },
+  "homepage": "https://github.com/ozsirma/react-native-mypicker#readme"
+}
