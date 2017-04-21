@@ -35,6 +35,41 @@ $ Import MyPicker from 'react-native-mypicker'
 | cancelButtonColor | HEX / RGBA |
 | doneButtonColor | HEX / RGBA |
 
+### Basic Example
+
+import React, { Component } from 'react';
+import { 
+  View,
+  TextInput,
+  Keyboard,
+} from 'react-native';
+import MyPicker from 'react-native-mypicker'
+
+export default class example extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { text: '' };
+  }
+  render() {
+    return (
+      <View style={{flex:1}}>
+        <TextInput
+          style={{height: 40,marginTop:30,margin:10,borderRadius:15, borderColor: 'gray', borderWidth: 1}}
+          onChangeText={(text) => this.setState({text})}
+          placeholder="Useless placeholder"
+          value={this.state.text}
+          onFocus={() => {Keyboard.dismiss();this.refs.picker.open()}}
+        />
+        <MyPicker
+          ref="picker"
+          data={[{label: 'a', value: '10'}, {label: 'b', value: '20'}]}
+          onDone={data => this.setState({text:data})}
+        />
+      </View>
+    );
+  }
+}
+
 
 License
 ----
