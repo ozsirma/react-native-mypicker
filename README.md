@@ -1,12 +1,18 @@
 # react-native-mypicker
 React Native Picker for only iOS
 
-
+[![gif.gif](https://s12.postimg.org/otkj4in71/gif.gif)](https://postimg.org/image/n1rk9m3u1/)
 
 ### Installation
 
 ```sh
 $ npm install react-native-mypicker
+```
+
+### Import
+
+```sh
+$ import MyPicker from 'react-native-mypicker'
 ```
 
 ### Usage
