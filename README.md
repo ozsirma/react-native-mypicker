@@ -37,6 +37,7 @@ $ Import MyPicker from 'react-native-mypicker'
 
 ### Basic Example
 
+```sh
 import React, { Component } from 'react';
 import { 
   View,
@@ -69,7 +70,7 @@ export default class example extends Component {
     );
   }
 }
-
+```
 
 License
 ----
